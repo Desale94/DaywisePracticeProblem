@@ -9,7 +9,6 @@ do
 		java)
 			echo "$files is java program file";
 		;;
-
 		sh)
 			echo "$files is shell script file";
 		;;
@@ -18,4 +17,5 @@ do
 			echo "$files has $ext extension";
 		;;
 	esac
+#echo $files
 done
