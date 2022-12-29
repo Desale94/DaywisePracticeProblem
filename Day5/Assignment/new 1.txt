@@ -1,0 +1,30 @@
+harmonic = 1.00
+
+    for (( i=2; i<=N; i++ ))
+    do
+      harmonic =$(($harmonic+1/$i))
+	  echo $harmonic
+	  done
+    }
+
+read -p "Enter the number:" n
+H=0.0
+for (( i=1; i<=n; i++ ))
+do
+    H=$(($H+1/$n))
+    echo $H
+done
+
+
+========================================
+for (i = 1; i <= num; ++i) {
+        if (num % i == 0) {
+		
+read -p "Enter the number:" n
+for (( i=1; i<=n; i++ ))
+do
+    if [[ $n%$i -eq 0 ]]
+   then
+          echo $i
+    fi
+done	
